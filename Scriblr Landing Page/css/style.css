@@ -152,6 +152,7 @@ a:link, a:visited{
     position: fixed;
 	z-index: 1;
 	font-family: Roboto;
+	font-size: 1vw !important;
 	width: 100%;
 	border-bottom:1px solid #EAEBEC;
 }
@@ -525,7 +526,7 @@ ul.icons li{
 }
 
 .general-field{
-	font-size: 20px;
+	font-size: 1.1vw;
 	font-weight: bold;
 	color: #292929;
 	position: relative;
@@ -567,7 +568,8 @@ ul.icons li{
 }
 
 .requirements{
-	font-size: 15px;
+	margin-top: 8px;
+	font-size: 0.9vw;
 	font-family: Roboto;
 
 }
@@ -588,7 +590,7 @@ ul.icons li{
 }
 
 .mission-header{
-	font-size: 28px;
+	font-size: 1.35vw;
 	font-family: Roboto;
 	font-weight: bold;
 	color: #292929;
@@ -596,7 +598,7 @@ ul.icons li{
 
 .stylized-list{
 	font-family: Roboto;
-	font-size: 16px;
+	font-size: 1vw;
 	color: #292929;
 	font-weight: 500;
 	margin-top: 30px;
@@ -606,48 +608,60 @@ ul.icons li{
 }
 
 .mission-text{
-	font-size: 17px;
+	font-size: 1.1vw;
 	width: 98%;
 	margin: auto;
 	font-family: Roboto;
 	margin-top: 40px;
 }
 .talents-needed{
-	font-size: 18px;
+	font-size: 1.25vw;
 	font-weight: bold;
 	font-family: Roboto;
 	margin-top: 40px;
 }
 
 .background-header{
-	height: 800px;
+	
 	width: 100%;
+}
+
+.tagline{
+	text-align: center;
+	padding: 60px;
+	font-size: 28px;
+	color: #292929;
+	font-family: Roboto;
+	font-weight: bold;
 }
 
 .background-header-large{
 	position: absolute;
-	top: 30%;
+	top: 20%;
 	left: 10%;
 	color: white;
 	font-family: Roboto;
 	font-weight: bold;
-	font-size: 36px;
+	font-size: 3vw;
 }
 
 .background-header-small{
 	position: absolute;
-	top: 38%;
-	left: 10%;
+	top: 20vw;
+	left: 10vw;
 	color: white;
 	font-family: Roboto;
 	font-weight: 200;
-	font-size: 22px;
+	font-size: 1.7vw;
 }
 
 .coral-button{
-	height: 40px;
-	padding: 10px;
-	width: 150px;
+	height: 5%;
+	padding: 8px;
+	width: 8vw;
+	margin: auto;
+	text-align: center;
+	font-size: 1.2vw;
 	background-color: #ff5050;
 	color:white;
 	border:none;
@@ -655,6 +669,221 @@ ul.icons li{
 	text-align: center;
 	font-family: Roboto;
 	position: absolute;
-	top: 40%;
-	left: 15%;
+	top: 24vw;
+	left: 10vw;
+}
+
+.icon-container{
+	
+	width: 78%;
+	margin:auto;
+}
+
+.icon-holder{
+	height: 100%;
+	min-height: 100%;
+	padding: 1%;
+	width: 32%;
+	margin: auto;
+	display: inline-grid;
+	  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+	   
+}
+
+.image-trifecta{
+	height: 13vh;
+	width: 6vw;
+	padding-bottom: 10px;
+	margin: auto;
+	
+	
+}
+
+.icon-holder-title{
+	font-size: 1.6vw;
+	width:150px;
+	margin-top: 15px;
+	margin: auto;
+	text-align: center;
+	font-weight: bold;
+	color: #292929;
+	font-family: Roboto;
+}
+
+.icon-holder-para{
+	font-size: 1.1vw;
+	margin-left: 10px;
+	margin-top:20px;
+	margin-bottom: 40px;
+	max-width: 85%;
+	font-family: Roboto;
+	color:#292929;
+	text-align: center;
+	
+}
+
+.what-is-container{
+	display: block;
+	overflow: auto;
+	width: 100%;
+	margin-top:10%;
+	background-color: #FFB6C1;
+}
+
+.main-header{
+	font-family: Roboto;
+	color:#292929;
+	font-weight: 700;
+	font-size: 2vw;
+	margin-left: 12%;
+	padding-top: 4%;
+}
+
+.tiny-tagline{
+	font-family: Roboto;
+	color: #292929;
+	width: 300px;
+	font-weight: 500;
+	font-size: 1.5vw;
+	margin-left: 12%;
+	padding-top: 4%;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #292929;
+}
+
+.for-box{
+
+	display: block;
+	overflow: auto;
+	width:70%;
+	border-radius: 5px;
+	background-color: white;
+	margin: auto;
+	margin-top: 4%;
+	padding-bottom: 4%;
+	margin-bottom: 4%;
+}
+
+.writer-tagline{
+	width: 80%;
+	margin: auto;
+	font-family: Roboto;
+	font-style: italic;
+	font-size: 1.2vw;
+	font-weight: 400;
+
+}
+
+.title-for-x{
+	margin: 3%;
+	font-weight: bold;
+	color: #292929;
+	font-family: Roboto;
+	padding-bottom: 5px;
+	min-width: 150px;
+	max-width: 350px;
+	border-bottom: 2px solid #292929;
+	font-size: 1.8vw;
+	padding-top: 3%;
+}
+
+.list-style-fancy {
+  width: 70%;
+  float: right;
+  margin: auto;
+  margin-right: 10%;
+  margin-top: 3%;
+  margin-left: 10%;
+}
+ 
+.list-style-fancy ol {
+  color: #292929;
+  list-style-type: none;
+}
+ 
+.list-style-fancy ol li {
+  position: relative;
+  font: bold 2.6vw Roboto;
+  margin-bottom: 60px;
+}
+ 
+.list-style-fancy li p {
+  font: 1.1vw Roboto;
+  position: relative;
+  top:10px;
+  padding-left: 10%;
+  color: #292929;
+}
+ 
+.list-style-fancy span {
+  position: absolute;
+
+}
+
+.what-is-icons{
+	height: 3.2vw;
+	float: left;
+	position: relative;
+	margin-right: 1.5vw;
+	top: 35%;
+	left: -8%;
+
+
+}
+
+.vision-container{
+	background-color: #ff5050;
+	display: block;
+	overflow: auto;
+}
+
+.vision-para{
+	position: relative;
+	margin-top: 0 !important;
+	margin-left: 18% !important;
+	margin-right: 6% !important;
+}
+
+.vision-headers{
+	font-family: Roboto;
+	font-size: 1.3vw;
+	position: relative;
+	top: 1%;
+	padding-right: 20px;
+}
+
+.baby-pink-box{
+	padding: 20px;
+	background-color: #FFB6C1;
+	border-radius: 5px;
+	margin: 20px;
+}
+
+.pink-add-on{
+	font-family: Roboto;
+	width: 70%;
+	margin: auto;
+	font-size: 1.1vw;
+	background-color: white !important;
+	padding-bottom: 30px;
+}
+
+.careers-container{
+	background-color: #FFB6C1;
+	display: block;
+	overflow: auto;
+}
+
+.about-us-container{
+	margin-top: 30px;
+	padding-top: 30px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+.careers-link{
+	font-family: Roboto;
+	color: #ff5050 !important;
+	font-size: 1.1vw;
+	text-decoration: underline !important;
 }
