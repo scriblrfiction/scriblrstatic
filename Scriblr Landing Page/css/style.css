@@ -152,7 +152,7 @@ a:link, a:visited{
     position: fixed;
 	z-index: 1;
 	font-family: Roboto;
-	font-size: 1vw !important;
+	font-size: 1.2vw !important;
 	width: 100%;
 	border-bottom:1px solid #EAEBEC;
 }
@@ -165,7 +165,7 @@ a:link, a:visited{
 }
 
 .jumbotron-about{
-    height: 350px;
+    height: 15vw;
     width: 100%;
     background-color: #ff5050;
     opacity: 1;
@@ -175,11 +175,10 @@ a:link, a:visited{
 .section-header-bold{
     font-weight: bold;
     color: white;
+    position: relative;
+    top: 8vw !important;
     font-family: Roboto;
-    font-size: 56px;
-    top: 200px;
-    left: 45%;
-    position: absolute;
+    font-size: 2.5vw;
     z-index: 1000;
 }
 
@@ -228,6 +227,7 @@ a:link, a:visited{
 }
 .top-navigation a:link, a:visited{
 	color:#838994;
+	font-size: 1.0vw;
 	text-decoration: none;
 	-webkit-transition: all 0.2s;
 	transition: all 0.2s;
@@ -511,10 +511,9 @@ ul.icons li{
 }
 
 .topic-card{
-	height: 160px;
-	width: 23.5%;
-	margin-right: 17px;
-	margin-bottom: 17px;
+	height: 15vh;
+	width: 15vw;
+	margin:8px;
 	border-radius: 10px;
 	display: inline-grid;
 }
@@ -532,6 +531,8 @@ ul.icons li{
 	position: relative;
 	top: 30%;
 	margin: 15px;
+	margin-bottom: 25px;
+	margin-top: 0;
 	font-family: Roboto;
 }
 
@@ -637,8 +638,8 @@ ul.icons li{
 
 .background-header-large{
 	position: absolute;
-	top: 20%;
-	left: 10%;
+	top: 12vw;
+	left: 10vw;
 	color: white;
 	font-family: Roboto;
 	font-weight: bold;
@@ -656,9 +657,9 @@ ul.icons li{
 }
 
 .coral-button{
-	height: 5%;
+	height: 3.0vw;
 	padding: 8px;
-	width: 8vw;
+	width: 9vw;
 	margin: auto;
 	text-align: center;
 	font-size: 1.2vw;
@@ -691,7 +692,6 @@ ul.icons li{
 }
 
 .image-trifecta{
-	height: 13vh;
 	width: 6vw;
 	padding-bottom: 10px;
 	margin: auto;
@@ -726,7 +726,6 @@ ul.icons li{
 	display: block;
 	overflow: auto;
 	width: 100%;
-	margin-top:10%;
 	background-color: #FFB6C1;
 }
 
@@ -735,7 +734,6 @@ ul.icons li{
 	color:#292929;
 	font-weight: 700;
 	font-size: 2vw;
-	margin-left: 12%;
 	padding-top: 4%;
 }
 
@@ -767,6 +765,9 @@ ul.icons li{
 .writer-tagline{
 	width: 80%;
 	margin: auto;
+	background-color: #FFB6C1;
+	border-radius: 5px;
+	padding: 4px;
 	font-family: Roboto;
 	font-style: italic;
 	font-size: 1.2vw;
@@ -774,8 +775,13 @@ ul.icons li{
 
 }
 
+.white{
+	color:white !important;
+	text-decoration: none;
+}
+
 .title-for-x{
-	margin: 3%;
+	margin-bottom: 3%;
 	font-weight: bold;
 	color: #292929;
 	font-family: Roboto;
@@ -817,6 +823,7 @@ ul.icons li{
  
 .list-style-fancy span {
   position: absolute;
+  color: #ff5050;
 
 }
 
